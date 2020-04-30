@@ -10,11 +10,12 @@ def fourth_challenge
       ]
    }, 
    :capulet => {
-      :patriarch => {:name "Lord Capulet", :age "50"},
-      :matriarch => {:name "Lady Capulet", :age "51"},
-      :heroine => {:name "Juliet", :age "15", :status "alive"},
+      :patriarch => {:name => "Lord Capulet", :age => "50"},
+      :matriarch => {:name => "Lady Capulet", :age => "51"},
+      :heroine => {:name => "Juliet", :age => "15", :status => "alive"},
       :heroine_friends => [
-        :Steven => {:name => "Steven", a
+        :Steven => {:name => "Steven", :age => "30", :attitude => "confused"},
+        :Nurse => {:name => "Nurse", :age => "44", :attitude => "worried"}
       ]
    }
 }
